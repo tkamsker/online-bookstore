@@ -1,0 +1,29 @@
+~/project
+❯ npm run dev
+
+> online-bookstore@0.0.0 dev
+> concurrently "vite" "node server.js"
+
+jsh: command not found: concurrently
+
+~/project
+❯ node server.js
+[captureLargerStackTrace2@https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-corp-staticblitz.com/builtins.ddb8d84d.js:101:5336
+NodeError@https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-corp-staticblitz.com/builtins.ddb8d84d.js:101:4151
+packageResolve@https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-corp-staticblitz.com/builtins.ddb8d84d.js:158:9729
+moduleResolve@https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-corp-staticblitz.com/builtins.ddb8d84d.js:158:10202
+defaultResolve@https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-corp-staticblitz.com/builtins.ddb8d84d.js:158:12385
+resolve@https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-corp-staticblitz.com/builtins.ddb8d84d.js:154:3003
+@https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-corp-staticblitz.com/builtins.ddb8d84d.js:154:1945
+getModuleJob@https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-corp-staticblitz.com/builtins.ddb8d84d.js:154:1996
+@https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-corp-staticblitz.com/builtins.ddb8d84d.js:155:1059
+@https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-corp-staticblitz.com/builtins.ddb8d84d.js:155:1097
+@https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-corp-staticblitz.com/blitz.34c588ed.js:40:787988
+@https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3.w-corp-staticblitz.com/builtins.ddb8d84d.js:155:1006] {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+
+Node.js v18.20.3
+
+~/project
+❯ 
